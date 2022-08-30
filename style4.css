@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: gray;
+    position: relative; /* REFERENCIA */
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    border: 5px solid gray;
+    position: absolute;
+}
+
+.box-1{
+    bottom: 0;
+    right: 0;
+}
+
+.box-2{
+    bottom: 0; 
+    right: 100px; /* 5px + 100px + 5px */
+}
+
+.box-3{
+    bottom: 0;
+    right: 200px ; /* 110px + 100px + 5px */
+}
+
+.box-4{
+    right: 0;
+    bottom: 100px; /* 5px + 100px + 5px */
+}
+
+.box-5{
+    width: 100px;
+    height: 100px;
+    float: right;
+    margin: 5px;
+    background-color: red;
+}
+
+.box-6{
+    width: 100px;
+    height: 100px;
+    float: right;
+    background-color: green;
+}
+
+.box-7{
+    width: 100px;
+    height: 100px;
+    float: right;
+    background-color: blue;
+}
+
+.box-8{
+    width: 100px;
+    height: 100px;
+    float: right;
+    background-color: yellow;
+}
+
+.box-grande{
+    border: 1px solid black;
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
